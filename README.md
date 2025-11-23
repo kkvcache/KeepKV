@@ -25,7 +25,7 @@ pip install transformers==4.33
 - `scripts/helm/` directory contains example scripts; you can add your own script files there.
 
   - `scripts/helm/full.sh` (no compression, full KV cache)
-  - `scripts/helm/h2o.sh` （(H2O algorithm)
+  - `scripts/helm/h2o.sh`  (H2O algorithm)
   - `scripts/helm/local.sh`(keeps only the most recent KV cache)
 
 - Run one of the scripts; by default, the generated results are saved under `/output`.
